@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Henna Artist Surbhi · Henna in North Brunswick, NJ</title>
 <meta name="description" content="Henna by Surbhi in North Brunswick, NJ. Karwachauth open house Oct 26–28, 10 AM–4 PM. Limited slots. Call (908) 274-4044.">
-<meta name="theme-color" content="#f6f3ec">
+<meta name="theme-color" content="#f3f5f1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Henna Artist Surbhi · Henna for your special day in North Brunswick">
 <meta property="og:description" content="Karwachauth open house Oct 26–28, 10 AM–4 PM. Limited slots. Book by text or call (908) 274-4044.">
@@ -23,9 +23,9 @@
 /* ---------- Tokens ---------- */
 :root{
   /* warm paper, two henna-leaf greens, one Karwachauth gold */
-  --paper:#f6f3ec;       /* page ground */
+  --paper:#f3f5f1;       /* page ground: sage-tinted paper */
   --card:#ffffff;
-  --field:#ebe6da;       /* inputs and chips on the white form card */
+  --field:#e3e9e2;       /* inputs and chips on the white form card */
   --ink:#123227;         /* headings, text on gold */
   --body:#2c3a33;        /* running text on light */
   --soft:#4f5d55;        /* secondary text on light */
@@ -89,7 +89,7 @@ section{padding:64px 0}
 .brand{display:flex;flex-direction:column;justify-content:center;min-height:44px;text-decoration:none;line-height:1}
 .brand b{font:400 23px/1 var(--display);letter-spacing:.01em}
 .brand span{font:600 11px/1 var(--text);letter-spacing:.1em;white-space:nowrap;text-transform:uppercase;color:var(--soft);margin-top:5px}
-.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
+.tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 18px/1 var(--display);text-decoration:none;white-space:nowrap}
 .tel svg{width:18px;height:18px;flex:none;color:var(--gold-ink)}
 
 /* ---------- Hero ---------- */
@@ -112,7 +112,7 @@ section{padding:64px 0}
 .ig{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:14px 16px 14px 22px;border-radius:20px;background:var(--card);color:var(--ink);text-decoration:none}
 .ig:hover,.ig:focus-visible{outline:none;background:var(--card);box-shadow:none}
 .ig .lbl{display:flex;align-items:center;gap:14px;font:400 clamp(18px,5vw,20px)/1.2 var(--display)}
-.ig .lbl small{display:block;font:400 15px/1.3 var(--text);color:var(--soft);margin-top:3px}
+.ig .lbl small{display:block;font:400 14px/1.3 var(--text);color:var(--soft);margin-top:3px}
 .ig .lbl svg{width:30px;height:30px;flex:none;color:var(--navy)}
 .arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(18,50,39,.07);color:var(--ink);transition:background-color .2s,color .2s}
 .arrow svg{width:18px;height:18px}
@@ -132,7 +132,7 @@ section{padding:64px 0}
 .ask .wrap{display:grid;gap:28px}
 form{background:var(--card);border-radius:var(--r-card);padding:clamp(20px,5vw,32px);display:grid;gap:22px;max-width:600px}
 .field{display:grid;gap:8px;min-width:0}
-.field label,.field legend{font:400 17px/1.2 var(--display);color:var(--ink);padding:0}
+.field label,.field legend{font:400 18px/1.2 var(--display);color:var(--ink);padding:0}
 .field small{font:400 14px/1 var(--text);color:var(--soft);margin-left:4px}
 fieldset{border:0;margin:0;padding:0;min-width:0}
 fieldset legend{margin-bottom:8px}
@@ -145,12 +145,12 @@ input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
 .chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
 .chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:3px}
 .chips input:checked+label{background:var(--ink);color:#fff}
-.err{display:none;font-size:15px;color:var(--error)}
+.err{display:none;font-size:14px;color:var(--error)}
 .field.bad .err{display:block}
-.field.bad input[type=text],.field.bad textarea{border-color:var(--error)}
+.field.bad input[type=text],.field.bad input[type=text]:focus,.field.bad textarea{border-color:var(--error)}
 form .btn-primary{width:100%}
 form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-.after{font-size:15px;color:var(--soft)}
+.after{font-size:14px;color:var(--soft)}
 .sent{color:var(--ink);font-weight:600}
 .sent a{white-space:nowrap;display:inline-block;padding:11px 0;margin:-11px 0}
 @media (max-width:380px){.chips label{padding:0 14px}}
@@ -160,6 +160,10 @@ form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2p
 .bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--ink);min-height:56px;white-space:nowrap}
 .bigtel svg{width:.8em;height:.8em;flex:none;color:var(--gold-ink)}
 .area{margin-top:22px;max-width:40ch;color:var(--soft)}
+/* after the open house the close band turns green (see the open-house script) */
+.on-navy.close .who,.on-navy.close .area{color:var(--on-dark-soft)}
+.on-navy .bigtel{color:var(--on-dark)}
+.on-navy .bigtel svg{color:var(--gold)}
 
 /* ---------- Footer ---------- */
 footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
@@ -212,6 +216,7 @@ input[type=text]:hover,textarea:hover{border-color:var(--focus)}
 form .btn-primary:hover{outline:2px solid var(--focus);outline-offset:2px}
 .sent a:hover{color:var(--navy)}
 .bigtel:hover{color:var(--gold-ink)}
+.on-navy .bigtel:hover{color:var(--gold)}
 footer a:hover{color:var(--gold)}
 }
 @media (prefers-reduced-motion:reduce){
@@ -225,7 +230,7 @@ footer a:hover{color:var(--gold)}
 <body>
 <!--
 THESIS: A one-woman henna artist's site that feels personal and calm (after lpmr.co.uk): her own work up front, the Karwachauth open house plainly stated, and a one-minute way to book a slot by text.
-OWN-WORLD: Warm paper (#f6f3ec), henna-leaf green (#1f4d3c) and deep green (#123227, faint diagonal lines) bands, Karwachauth gold (#e6b04a) as the one accent (fills only; #7e5410 as text on light). Cal Sans display, system body at 16/1.7. Green, not wine, so it never reads like Royal Henna by Neha.
+OWN-WORLD: Sage-tinted paper (#f3f5f1), henna-leaf green (#1f4d3c) and deep green (#123227, faint diagonal lines) bands, Karwachauth gold (#e6b04a) as the one accent (fills only; #7e5410 as text on light). Cal Sans display, system body at 16/1.7. Green, not wine, so it never reads like Royal Henna by Neha.
 STORY: The visitor sees henna in North Brunswick by Surbhi, sees her real work, learns the open-house dates and that slots are limited, and texts her to book.
 FIRST VIEWPORT: Paper header with "Surbhi / Henna artist" left and the tap-to-call number top right. Green textured hero: eyebrow "Karwachauth open house · Oct 26–28", "Henna for your special day in North Brunswick", one promise line, two pill buttons (Book your slot, Text Surbhi).
 FORM: calm band system; her only photo is portrait 600x800, so instead of a stretched hero background it sits in the hero as a 3:4 card (right column on desktop, under the buttons on phones) with the Instagram link right under it.
@@ -365,6 +370,10 @@ document.documentElement.classList.add('js');
 (function(){
   if(Date.now()<new Date(CONFIG.EVENT_END).getTime())return;
   var ev=document.getElementById('event');if(ev)ev.remove();
+  // keep light and dark bands alternating once the paper band is gone
+  var ask=document.getElementById('book'),close=document.getElementById('close');
+  if(ask)ask.classList.replace('on-deep','on-paper');
+  if(close)close.classList.replace('on-paper','on-navy');
   var eb=document.getElementById('heroEyebrow');if(eb&&eb.dataset.after)eb.textContent=eb.dataset.after;
 })();
 
