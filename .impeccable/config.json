@@ -20,6 +20,51 @@
         ],
         "createdAt": "2026-10-20T23:47:05.968Z",
         "reason": "detector counts only 11-20px UI sizes; headings run 30-80px via clamp(), so hierarchy is not flat"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "20px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T23:55:05.415Z",
+        "reason": "shipped build values (Instagram row radius; brand, lede, desktop wordmark, desktop H1 clamp sizes) that the DESIGN.md frontmatter ramp omits; intentional"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "20px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T23:55:05.476Z",
+        "reason": "shipped build values (Instagram row radius; brand, lede, desktop wordmark, desktop H1 clamp sizes) that the DESIGN.md frontmatter ramp omits; intentional"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "14px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T23:55:05.536Z",
+        "reason": "shipped build values (Instagram row radius; brand, lede, desktop wordmark, desktop H1 clamp sizes) that the DESIGN.md frontmatter ramp omits; intentional"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "26px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T23:55:05.595Z",
+        "reason": "shipped build values (Instagram row radius; brand, lede, desktop wordmark, desktop H1 clamp sizes) that the DESIGN.md frontmatter ramp omits; intentional"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "56px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T23:55:05.657Z",
+        "reason": "shipped build values (Instagram row radius; brand, lede, desktop wordmark, desktop H1 clamp sizes) that the DESIGN.md frontmatter ramp omits; intentional"
       }
     ]
   }
