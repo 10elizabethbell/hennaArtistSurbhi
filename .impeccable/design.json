@@ -1,0 +1,463 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T23:53:19.447948+00:00",
+  "title": "Design System: Henna Artist Surbhi",
+  "extensions": {
+    "colorMeta": {
+      "sage-paper": {
+        "role": "neutral",
+        "displayName": "Sage Paper",
+        "canonical": "#f3f5f1",
+        "tonalRamp": [
+          "oklch(15% 0.006 128.5)",
+          "oklch(25% 0.006 128.5)",
+          "oklch(35% 0.006 128.5)",
+          "oklch(45% 0.006 128.5)",
+          "oklch(55% 0.006 128.5)",
+          "oklch(70% 0.006 128.5)",
+          "oklch(85% 0.006 128.5)",
+          "oklch(95% 0.006 128.5)"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.000 89.9)",
+          "oklch(25% 0.000 89.9)",
+          "oklch(35% 0.000 89.9)",
+          "oklch(45% 0.000 89.9)",
+          "oklch(55% 0.000 89.9)",
+          "oklch(70% 0.000 89.9)",
+          "oklch(85% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
+        ]
+      },
+      "leaf-field": {
+        "role": "neutral",
+        "displayName": "Leaf Field",
+        "canonical": "#e3e9e2",
+        "tonalRamp": [
+          "oklch(15% 0.011 141.3)",
+          "oklch(25% 0.011 141.3)",
+          "oklch(35% 0.011 141.3)",
+          "oklch(45% 0.011 141.3)",
+          "oklch(55% 0.011 141.3)",
+          "oklch(70% 0.011 141.3)",
+          "oklch(85% 0.011 141.3)",
+          "oklch(95% 0.011 141.3)"
+        ]
+      },
+      "henna-leaf": {
+        "role": "secondary",
+        "displayName": "Henna Leaf",
+        "canonical": "#1f4d3c",
+        "tonalRamp": [
+          "oklch(15% 0.059 166.4)",
+          "oklch(25% 0.059 166.4)",
+          "oklch(35% 0.059 166.4)",
+          "oklch(45% 0.059 166.4)",
+          "oklch(55% 0.059 166.4)",
+          "oklch(70% 0.059 166.4)",
+          "oklch(85% 0.059 166.4)",
+          "oklch(95% 0.059 166.4)"
+        ]
+      },
+      "deep-leaf": {
+        "role": "secondary",
+        "displayName": "Deep Leaf",
+        "canonical": "#123227",
+        "tonalRamp": [
+          "oklch(15% 0.043 168.1)",
+          "oklch(25% 0.043 168.1)",
+          "oklch(35% 0.043 168.1)",
+          "oklch(45% 0.043 168.1)",
+          "oklch(55% 0.043 168.1)",
+          "oklch(70% 0.043 168.1)",
+          "oklch(85% 0.043 168.1)",
+          "oklch(95% 0.043 168.1)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#123227",
+        "tonalRamp": [
+          "oklch(15% 0.043 168.1)",
+          "oklch(25% 0.043 168.1)",
+          "oklch(35% 0.043 168.1)",
+          "oklch(45% 0.043 168.1)",
+          "oklch(55% 0.043 168.1)",
+          "oklch(70% 0.043 168.1)",
+          "oklch(85% 0.043 168.1)",
+          "oklch(95% 0.043 168.1)"
+        ]
+      },
+      "body-text": {
+        "role": "neutral",
+        "displayName": "Body Text",
+        "canonical": "#2c3a33",
+        "tonalRamp": [
+          "oklch(15% 0.022 163.3)",
+          "oklch(25% 0.022 163.3)",
+          "oklch(35% 0.022 163.3)",
+          "oklch(45% 0.022 163.3)",
+          "oklch(55% 0.022 163.3)",
+          "oklch(70% 0.022 163.3)",
+          "oklch(85% 0.022 163.3)",
+          "oklch(95% 0.022 163.3)"
+        ]
+      },
+      "soft-text": {
+        "role": "neutral",
+        "displayName": "Soft Text",
+        "canonical": "#4f5d55",
+        "tonalRamp": [
+          "oklch(15% 0.022 160.4)",
+          "oklch(25% 0.022 160.4)",
+          "oklch(35% 0.022 160.4)",
+          "oklch(45% 0.022 160.4)",
+          "oklch(55% 0.022 160.4)",
+          "oklch(70% 0.022 160.4)",
+          "oklch(85% 0.022 160.4)",
+          "oklch(95% 0.022 160.4)"
+        ]
+      },
+      "on-dark": {
+        "role": "neutral",
+        "displayName": "On Dark",
+        "canonical": "#f7f4ec",
+        "tonalRamp": [
+          "oklch(15% 0.011 89.7)",
+          "oklch(25% 0.011 89.7)",
+          "oklch(35% 0.011 89.7)",
+          "oklch(45% 0.011 89.7)",
+          "oklch(55% 0.011 89.7)",
+          "oklch(70% 0.011 89.7)",
+          "oklch(85% 0.011 89.7)",
+          "oklch(95% 0.011 89.7)"
+        ]
+      },
+      "on-dark-soft": {
+        "role": "neutral",
+        "displayName": "On Dark Soft",
+        "canonical": "#d2e6d9",
+        "tonalRamp": [
+          "oklch(15% 0.028 157.3)",
+          "oklch(25% 0.028 157.3)",
+          "oklch(35% 0.028 157.3)",
+          "oklch(45% 0.028 157.3)",
+          "oklch(55% 0.028 157.3)",
+          "oklch(70% 0.028 157.3)",
+          "oklch(85% 0.028 157.3)",
+          "oklch(95% 0.028 157.3)"
+        ]
+      },
+      "karwachauth-gold": {
+        "role": "primary",
+        "displayName": "Karwachauth Gold",
+        "canonical": "#e6b04a",
+        "tonalRamp": [
+          "oklch(15% 0.133 80.4)",
+          "oklch(25% 0.133 80.4)",
+          "oklch(35% 0.133 80.4)",
+          "oklch(45% 0.133 80.4)",
+          "oklch(55% 0.133 80.4)",
+          "oklch(70% 0.133 80.4)",
+          "oklch(85% 0.133 80.4)",
+          "oklch(95% 0.120 80.4)"
+        ]
+      },
+      "gold-bright": {
+        "role": "primary",
+        "displayName": "Bright Gold",
+        "canonical": "#f0c46a",
+        "tonalRamp": [
+          "oklch(15% 0.120 83.7)",
+          "oklch(25% 0.120 83.7)",
+          "oklch(35% 0.120 83.7)",
+          "oklch(45% 0.120 83.7)",
+          "oklch(55% 0.120 83.7)",
+          "oklch(70% 0.120 83.7)",
+          "oklch(85% 0.120 83.7)",
+          "oklch(95% 0.120 83.7)"
+        ]
+      },
+      "gold-ink": {
+        "role": "primary",
+        "displayName": "Gold Ink",
+        "canonical": "#7e5410",
+        "tonalRamp": [
+          "oklch(15% 0.096 73.1)",
+          "oklch(25% 0.096 73.1)",
+          "oklch(35% 0.096 73.1)",
+          "oklch(45% 0.096 73.1)",
+          "oklch(55% 0.096 73.1)",
+          "oklch(70% 0.096 73.1)",
+          "oklch(85% 0.096 73.1)",
+          "oklch(95% 0.096 73.1)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Focus Green",
+        "canonical": "#1f4d3c",
+        "tonalRamp": [
+          "oklch(15% 0.059 166.4)",
+          "oklch(25% 0.059 166.4)",
+          "oklch(35% 0.059 166.4)",
+          "oklch(45% 0.059 166.4)",
+          "oklch(55% 0.059 166.4)",
+          "oklch(70% 0.059 166.4)",
+          "oklch(85% 0.059 166.4)",
+          "oklch(95% 0.059 166.4)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error Red",
+        "canonical": "#a8261c",
+        "tonalRamp": [
+          "oklch(15% 0.168 29.3)",
+          "oklch(25% 0.168 29.3)",
+          "oklch(35% 0.168 29.3)",
+          "oklch(45% 0.168 29.3)",
+          "oklch(55% 0.168 29.3)",
+          "oklch(70% 0.168 29.3)",
+          "oklch(85% 0.168 29.3)",
+          "oklch(95% 0.120 29.3)"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(18,50,39,.12)",
+        "tonalRamp": []
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only; clamp(56px,5.6vw,76px) from 1024px."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "One H2 per band; also the close band's big phone number."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Cal Sans for buttons, form labels, header phone and brand."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running text and inputs (16px prevents iOS zoom)."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Paragraph under a band heading, max 38ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase fact terms in the open-house list."
+      }
+    },
+    "textures": [
+      {
+        "name": "diagonal-thread",
+        "value": "repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px)",
+        "purpose": "Green bands only: hero, booking, footer. Confirmed house style."
+      }
+    ],
+    "shadows": [
+      {
+        "name": "photo-lift",
+        "value": "0 18px 40px rgba(6,22,16,.35)",
+        "purpose": "Her work photo in the hero."
+      },
+      {
+        "name": "float-lift",
+        "value": "0 10px 28px rgba(10,30,22,.3)",
+        "purpose": "Floating text circle."
+      }
+    ],
+    "motion": [
+      {
+        "name": "letter-in",
+        "value": "1s cubic-bezier(.34,1.56,.64,1), 20ms stagger, from translateX(50px)",
+        "purpose": "Hero H1 letters bounce in once; plain heading restored after."
+      },
+      {
+        "name": "rise",
+        "value": "opacity/transform .4s ease-out, translateY(12px)",
+        "purpose": "Fade-up only for elements that start below the first screen."
+      },
+      {
+        "name": "float-slide",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1), translateY(120px)",
+        "purpose": "Floating circle in and out."
+      },
+      {
+        "name": "state",
+        "value": ".2s colour transitions; .12s scale(.98) on press",
+        "purpose": "Buttons and arrow disc."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "no letter split, no rise, no transitions on float and buttons, scroll-behavior auto",
+        "purpose": "prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "380px"
+      },
+      {
+        "name": "tablet",
+        "value": "760px"
+      },
+      {
+        "name": "desktop",
+        "value": "1024px"
+      }
+    ],
+    "focus": {
+      "light": "3px solid #1f4d3c, offset 3px, radius 6px",
+      "dark": "3px solid #e6b04a on green bands and footer"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Gold pill for the one main action in a band; ink text.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Text this to Surbhi</a>",
+      "css": ":host{--paper:#f3f5f1;--card:#fff;--field:#e3e9e2;--ink:#123227;--body:#2c3a33;--soft:#4f5d55;--navy:#1f4d3c;--deep:#123227;--on-dark:#f7f4ec;--on-dark-soft:#d2e6d9;--gold:#e6b04a;--gold-2:#f0c46a;--gold-ink:#7e5410;--line:rgba(18,50,39,.12);--focus:#1f4d3c;--error:#a8261c;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:var(--pill);font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}.ds-btn:active{transform:scale(.98)}.ds-btn svg{flex:none}.ds-btn-primary{background:var(--gold);color:var(--ink);border-color:var(--gold)}.ds-btn-primary:hover{background:var(--gold-2);border-color:var(--gold-2)}.ds-btn-primary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Outlined pill for the secondary action, on green bands only.",
+      "html": "<div class=\"ds-band\"><a class=\"ds-btn ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>Text Surbhi</a></div>",
+      "css": ":host{--paper:#f3f5f1;--card:#fff;--field:#e3e9e2;--ink:#123227;--body:#2c3a33;--soft:#4f5d55;--navy:#1f4d3c;--deep:#123227;--on-dark:#f7f4ec;--on-dark-soft:#d2e6d9;--gold:#e6b04a;--gold-2:#f0c46a;--gold-ink:#7e5410;--line:rgba(18,50,39,.12);--focus:#1f4d3c;--error:#a8261c;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 26px;border-radius:var(--pill);font:400 18px/1 var(--display);text-decoration:none;cursor:pointer;border:2px solid transparent;transition:background-color .2s,color .2s,border-color .2s,transform .12s}.ds-btn:active{transform:scale(.98)}.ds-btn svg{flex:none}.ds-band{background-color:var(--navy);background-image:var(--texture);padding:24px}.ds-btn-ghost{background:transparent;color:var(--on-dark);border-color:rgba(247,244,236,.7)}.ds-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.1)}.ds-btn-ghost:focus-visible{outline:3px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "Filled field on the white form card; Cal Sans label, focus-green border on hover and focus.",
+      "html": "<div class=\"ds-card\"><label class=\"ds-label\" for=\"ds-n\">Your name</label><input class=\"ds-input\" id=\"ds-n\" type=\"text\" placeholder=\"First name is fine\"></div>",
+      "css": ":host{--paper:#f3f5f1;--card:#fff;--field:#e3e9e2;--ink:#123227;--body:#2c3a33;--soft:#4f5d55;--navy:#1f4d3c;--deep:#123227;--on-dark:#f7f4ec;--on-dark-soft:#d2e6d9;--gold:#e6b04a;--gold-2:#f0c46a;--gold-ink:#7e5410;--line:rgba(18,50,39,.12);--focus:#1f4d3c;--error:#a8261c;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-card{background:var(--card);border-radius:var(--r-card);padding:24px;display:grid;gap:8px;max-width:420px}.ds-label{font:400 18px/1.2 var(--display);color:var(--ink)}.ds-input{width:100%;box-sizing:border-box;font:16px/1.4 var(--text);color:var(--ink);background:var(--field);border:2px solid transparent;border-radius:var(--r-field);padding:13px 14px;min-height:52px;caret-color:var(--navy);transition:border-color .15s}.ds-input::placeholder{color:var(--soft)}.ds-input:hover,.ds-input:focus{outline:none;border-color:var(--focus)}"
+    },
+    {
+      "name": "Choice Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill radio choices; selected inverts to ink with white text.",
+      "html": "<div class=\"ds-chips\"><input type=\"radio\" name=\"ds-o\" id=\"ds-o1\" checked><label for=\"ds-o1\">Karwachauth</label><input type=\"radio\" name=\"ds-o\" id=\"ds-o2\"><label for=\"ds-o2\">Bridal</label><input type=\"radio\" name=\"ds-o\" id=\"ds-o3\"><label for=\"ds-o3\">Festival or party</label></div>",
+      "css": ":host{--paper:#f3f5f1;--card:#fff;--field:#e3e9e2;--ink:#123227;--body:#2c3a33;--soft:#4f5d55;--navy:#1f4d3c;--deep:#123227;--on-dark:#f7f4ec;--on-dark-soft:#d2e6d9;--gold:#e6b04a;--gold-2:#f0c46a;--gold-ink:#7e5410;--line:rgba(18,50,39,.12);--focus:#1f4d3c;--error:#a8261c;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-chips{display:flex;flex-wrap:wrap;gap:10px;background:var(--card);padding:20px;border-radius:var(--r-card)}.ds-chips input{position:absolute;width:1px;height:1px;opacity:0;margin:0}.ds-chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;transition:border-color .15s,background-color .15s,color .15s}.ds-chips label:hover{border-color:var(--focus)}.ds-chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:3px}.ds-chips input:checked+label{background:var(--ink);color:#fff}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Paper header: two-line brand lockup left, tap-to-call number right. No menu.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\"><b>Surbhi</b><span>Henna artist</span></a><a class=\"ds-tel\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path d=\"M5 3h3.5l1.8 4.6-2.3 1.5a11 11 0 0 0 6 6l1.5-2.3L20 14.5V18a2 2 0 0 1-2.2 2A16 16 0 0 1 3 5.2 2 2 0 0 1 5 3z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>(908) 274-4044</a></header>",
+      "css": ":host{--paper:#f3f5f1;--card:#fff;--field:#e3e9e2;--ink:#123227;--body:#2c3a33;--soft:#4f5d55;--navy:#1f4d3c;--deep:#123227;--on-dark:#f7f4ec;--on-dark-soft:#d2e6d9;--gold:#e6b04a;--gold-2:#f0c46a;--gold-ink:#7e5410;--line:rgba(18,50,39,.12);--focus:#1f4d3c;--error:#a8261c;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-top{background:var(--paper);color:var(--ink);display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:64px;padding:0 20px}.ds-brand{display:flex;flex-direction:column;text-decoration:none;color:inherit;line-height:1}.ds-brand b{font:400 23px/1 var(--display)}.ds-brand span{font:600 11px/1 var(--text);letter-spacing:.1em;text-transform:uppercase;color:var(--soft);margin-top:5px}.ds-tel{display:inline-flex;align-items:center;gap:8px;min-height:44px;font:400 18px/1 var(--display);text-decoration:none;color:inherit;white-space:nowrap}.ds-tel svg{color:var(--gold-ink)}.ds-tel:hover{color:var(--gold-ink)}.ds-tel:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Work Photo + Instagram Row",
+      "kind": "card",
+      "refersTo": "photo-card",
+      "description": "Her real work at 3:4 in a 24px card with the photo lift, Instagram row beneath, on the textured hero green.",
+      "html": "<div class=\"ds-hero\"><div class=\"ds-work\"><figure class=\"ds-photo\"></figure><a class=\"ds-ig\" href=\"#\"><span class=\"ds-lbl\"><svg viewBox=\"0 0 24 24\" width=\"30\" height=\"30\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"17.3\" cy=\"6.7\" r=\"1.3\" fill=\"currentColor\"/></svg><span>Click to see more of my work.<small>@henna_artist_surbhi</small></span></span><span class=\"ds-arrow\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\"><path d=\"M5 12h14M13 6l6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a></div></div>",
+      "css": ":host{--paper:#f3f5f1;--card:#fff;--field:#e3e9e2;--ink:#123227;--body:#2c3a33;--soft:#4f5d55;--navy:#1f4d3c;--deep:#123227;--on-dark:#f7f4ec;--on-dark-soft:#d2e6d9;--gold:#e6b04a;--gold-2:#f0c46a;--gold-ink:#7e5410;--line:rgba(18,50,39,.12);--focus:#1f4d3c;--error:#a8261c;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-hero{background-color:var(--navy);background-image:var(--texture);padding:28px}.ds-work{display:grid;gap:14px;max-width:320px}.ds-photo{margin:0;border-radius:var(--r-card);background:var(--deep);aspect-ratio:3/4;box-shadow:0 18px 40px rgba(6,22,16,.35)}.ds-ig{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:76px;padding:14px 16px 14px 22px;border-radius:20px;background:var(--card);color:var(--ink);text-decoration:none}.ds-ig:focus-visible{outline:none}.ds-lbl{display:flex;align-items:center;gap:14px;font:400 18px/1.2 var(--display)}.ds-lbl svg{flex:none;color:var(--navy)}.ds-lbl small{display:block;font:400 14px/1.3 var(--text);color:var(--soft);margin-top:3px}.ds-arrow{width:44px;height:44px;flex:none;border-radius:50%;display:grid;place-items:center;background:rgba(18,50,39,.07);color:var(--ink);transition:background-color .2s}.ds-ig:hover .ds-arrow{background:var(--gold)}.ds-ig:focus-visible .ds-arrow{background:var(--gold);outline:3px solid var(--focus);outline-offset:3px}"
+    },
+    {
+      "name": "Open-House Facts",
+      "kind": "custom",
+      "refersTo": "facts",
+      "description": "Time-bound definition list: uppercase label column, Cal Sans values, hairlines between.",
+      "html": "<dl class=\"ds-facts\"><div><dt>Dates</dt><dd>Oct 26–28, 2026</dd></div><div><dt>Timing</dt><dd>10 AM – 4 PM</dd></div><div><dt>Where</dt><dd>North Brunswick</dd></div></dl>",
+      "css": ":host{--paper:#f3f5f1;--card:#fff;--field:#e3e9e2;--ink:#123227;--body:#2c3a33;--soft:#4f5d55;--navy:#1f4d3c;--deep:#123227;--on-dark:#f7f4ec;--on-dark-soft:#d2e6d9;--gold:#e6b04a;--gold-2:#f0c46a;--gold-ink:#7e5410;--line:rgba(18,50,39,.12);--focus:#1f4d3c;--error:#a8261c;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-facts{margin:0;display:grid;max-width:560px;background:var(--paper);padding:0 20px}.ds-facts div{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:baseline;padding:16px 0;border-top:1px solid var(--line)}.ds-facts div:last-child{border-bottom:1px solid var(--line)}.ds-facts dt{font:600 13px/1.4 var(--text);letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}.ds-facts dd{margin:0;font:400 24px/1.2 var(--display);color:var(--ink)}"
+    },
+    {
+      "name": "Floating Text Circle",
+      "kind": "custom",
+      "refersTo": "float-text-circle",
+      "description": "One 60px gold circle that opens a text; shown after the hero, hidden while the form is on screen.",
+      "html": "<a class=\"ds-float\" href=\"#\" aria-label=\"Text Surbhi\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" aria-hidden=\"true\"><path d=\"M4 5h16v11H9l-5 4z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>",
+      "css": ":host{--paper:#f3f5f1;--card:#fff;--field:#e3e9e2;--ink:#123227;--body:#2c3a33;--soft:#4f5d55;--navy:#1f4d3c;--deep:#123227;--on-dark:#f7f4ec;--on-dark-soft:#d2e6d9;--gold:#e6b04a;--gold-2:#f0c46a;--gold-ink:#7e5410;--line:rgba(18,50,39,.12);--focus:#1f4d3c;--error:#a8261c;--texture:repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.035) 22px 23px);--display:'Cal Sans','Avenir Next','Segoe UI',system-ui,sans-serif;--text:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif;--r-card:24px;--r-field:10px;--pill:999px} .ds-float{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--ink);box-shadow:0 10px 28px rgba(10,30,22,.3);transition:transform .35s cubic-bezier(.2,.8,.2,1)}.ds-float:focus-visible{outline:3px solid var(--focus);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Leaf",
+    "overview": "A phone-first page built from whole-width bands of colour, the way a henna cone lays down leaf and stain: green grounds, warm paper between them, one festival gold. Nothing competes with her photograph. Type is soft and round (Cal Sans) at display sizes and plain system text everywhere else, so the page reads as one person speaking, not a salon brochure.\n\nDensity is low. Each band carries one idea, one heading, and at most one action. The green bands carry a faint 135-degree line texture, so the colour feels like cloth rather than a flat fill. Depth comes from colour changes between bands, not from stacked cards; only her photo and the floating text circle cast shadows.\n\nGreen, never wine: the system is deliberately cool-leafed so it cannot be mistaken for a wine/rani/marigold competitor. The warm red-brown of real henna stain lives in her photography, not in the UI.",
+    "keyCharacteristics": [
+      "Full-bleed bands alternating light (sage paper) and dark (henna-leaf or deep-leaf green).",
+      "One accent, Karwachauth gold, used as a fill; a darker gold ink carries it as text on light.",
+      "Cal Sans at weight 400 for every heading, button, label-on-form and phone number; system sans for running text.",
+      "Pills and generous 24px cards; no hard edges anywhere except hairline rules in the facts list.",
+      "Motion is one entrance (the hero heading's letters bouncing in) and one small fade-up below the fold."
+    ],
+    "rules": [
+      {
+        "name": "The Gold Fills Rule",
+        "body": "Gold is a fill on any band; as text it appears only on green. On paper or white, gold text and icons use Gold Ink.",
+        "section": "colors"
+      },
+      {
+        "name": "The Alternating Bands Rule",
+        "body": "Bands alternate light and dark top to bottom. When a band is removed (the open house after `CONFIG.EVENT_END`), re-colour the neighbours so two light or two dark bands never touch: booking goes to paper, close goes to henna leaf.",
+        "section": "colors"
+      },
+      {
+        "name": "The Leaf Not Wine Rule",
+        "body": "UI grounds and accents stay green and gold. Red-brown appears only as the henna stain in her photographs.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Weight Rule",
+        "body": "Cal Sans is only ever weight 400. Hierarchy comes from size and from the switch between display and system faces, never from bolding the display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Spoken Number Rule",
+        "body": "Phone numbers are set in Cal Sans with a phone icon, never in body text, and never wrap.",
+        "section": "typography"
+      },
+      {
+        "name": "The Two Lifts Rule",
+        "body": "Only the work photo and the floating circle cast shadows. Cards, buttons, inputs and the Instagram row stay flat.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Faint Thread Rule",
+        "body": "The diagonal texture is barely visible (3.5% white). It belongs to green bands; paper bands are never textured.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** alternate light and dark bands, and re-colour neighbours whenever a band is added or removed.",
+      "**Do** use Karwachauth gold as a fill, with ink text on it; switch to gold ink for gold text on paper or white.",
+      "**Do** put the diagonal line texture on green bands only (hero, booking, footer).",
+      "**Do** set headings, buttons, form labels and phone numbers in Cal Sans 400, and everything else in system sans at 16px/1.7.",
+      "**Do** keep every touch target at least 44px tall (buttons 56px, chips 48px, inputs 52px).",
+      "**Do** show her real work at its own 3:4 shape inside a 24px-radius card with the photo lift.",
+      "**Do** restrict hover styles to `(hover: hover)` so taps don't leave them stuck on.",
+      "**Do** keep content visible at rest; motion only enhances what JS and motion preferences allow."
+    ],
+    "donts": [
+      "**Don't** use wine, rani pink or marigold as UI colours; red-brown belongs only to the henna stain in her photos.",
+      "**Don't** put gold text (#e6b04a) on paper or white.",
+      "**Don't** add shadows beyond the photo lift and float lift.",
+      "**Don't** bold Cal Sans or add a second display weight.",
+      "**Don't** stretch a portrait photo into a full-bleed hero background.",
+      "**Don't** replace the floating circle with a sticky bottom bar, or show it while the form is in view.",
+      "**Don't** hide first-screen content behind a fade-in."
+    ]
+  }
+}
