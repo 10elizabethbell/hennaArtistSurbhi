@@ -156,12 +156,11 @@ form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2p
 @media (max-width:380px){.chips label{padding:0 14px}}
 
 /* ---------- Close ---------- */
-.close .who{margin-top:14px;font-size:clamp(18px,5vw,20px);color:var(--body)}
 .bigtel{display:inline-flex;align-items:center;gap:12px;margin-top:28px;font:400 clamp(30px,9vw,52px)/1 var(--display);text-decoration:none;color:var(--ink);min-height:56px;white-space:nowrap}
 .bigtel svg{width:.8em;height:.8em;flex:none;color:var(--gold-ink)}
-.area{margin-top:22px;max-width:40ch;color:var(--soft)}
+.area{margin-top:16px;max-width:40ch;color:var(--soft)}
 /* after the open house the close band turns green (see the open-house script) */
-.on-navy.close .who,.on-navy.close .area{color:var(--on-dark-soft)}
+.on-navy.close .area{color:var(--on-dark-soft)}
 .on-navy .bigtel{color:var(--on-dark)}
 .on-navy .bigtel svg{color:var(--gold)}
 
@@ -198,8 +197,9 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
 @media (min-width:1024px){
   .hero-grid{grid-template-columns:1fr minmax(0,400px);column-gap:72px;align-items:center}
   .hero h1{font-size:clamp(56px,5.6vw,76px)}
-  .event .wrap{display:grid;grid-template-columns:1fr 1fr;column-gap:72px;align-items:start}
-  .event .facts{margin-top:0}
+  .event .wrap{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:auto 1fr;column-gap:72px;align-items:start}
+  .event .facts{grid-column:2;grid-row:1/3;margin-top:0}
+  .event .slots-cta{grid-column:1;grid-row:2}
   .ask .wrap{grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}
   .ask .head{position:sticky;top:40px}
   .close .wrap{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:end}
@@ -213,6 +213,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
 .ig:hover .arrow{background:var(--gold);color:var(--ink)}
 input[type=text]:hover,textarea:hover{border-color:var(--focus)}
 .chips label:hover{border-color:var(--focus)}
+.chips input:checked+label:hover{outline:2px solid var(--focus);outline-offset:2px}
 form .btn-primary:hover{outline:2px solid var(--focus);outline-offset:2px}
 .sent a:hover{color:var(--navy)}
 .bigtel:hover{color:var(--gold-ink)}
@@ -274,15 +275,15 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 <section class="on-paper event" id="event" aria-labelledby="h-event">
   <div class="wrap">
     <div class="head rise">
-      <p class="eyebrow">Limited slots</p>
+      <p class="eyebrow">Three days only</p>
       <h2 id="h-event">Karwachauth open house</h2>
     </div>
-    <div class="rise">
-      <dl class="facts">
-        <div><dt>Dates</dt><dd>26–28 Oct 2026</dd></div>
+    <dl class="facts rise">
+        <div><dt>Dates</dt><dd>Oct 26–28, 2026</dd></div>
         <div><dt>Timing</dt><dd>10 AM – 4 PM</dd></div>
         <div><dt>Where</dt><dd>North Brunswick</dd></div>
-      </dl>
+    </dl>
+    <div class="slots-cta rise">
       <p class="slots"><b>Limited slots available.</b> Book your slot soon.</p>
       <a class="btn btn-primary" href="#book" data-pick="Karwachauth">Book your open-house slot</a>
     </div>
@@ -293,14 +294,14 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <div class="wrap">
     <div class="head rise">
       <p class="eyebrow">Book by text</p>
-      <h2 id="h-ask">Book your <span class="accent">slot.</span></h2>
-      <p class="lede">Tell me the occasion and the day you'd like. I'll text back to confirm your time.</p>
+      <h2 id="h-ask">Tell me about your <span class="accent">day.</span></h2>
+      <p class="lede">The occasion and the day you'd like are enough to start. I'll get back to you to confirm your time.</p>
     </div>
     <form id="bookForm" class="rise" novalidate>
       <div class="field" id="f-name">
         <label for="name">Your name</label>
         <input type="text" id="name" name="name" autocomplete="name" maxlength="60" placeholder="First name is fine" aria-describedby="e-name">
-        <p class="err" id="e-name">Add your name so I know who's texting.</p>
+        <p class="err" id="e-name">Add your name so I know who's getting in touch.</p>
       </div>
       <fieldset class="field">
         <legend>What's the occasion? <small>(optional)</small></legend>
@@ -321,7 +322,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       </fieldset>
       <div class="field">
         <label for="when">Which day and time? <small>(optional)</small></label>
-        <input type="text" id="when" name="when" maxlength="80" placeholder="e.g. Oct 27, around noon">
+        <input type="text" id="when" name="when" maxlength="80" placeholder="e.g. a Saturday, around noon">
       </div>
       <div class="field">
         <label for="note">Anything else? <small>(optional)</small></label>
@@ -338,7 +339,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <div class="wrap">
     <div class="rise">
       <h2 id="h-close">Henna Artist Surbhi</h2>
-      <p class="who">Surbhi, henna artist in North Brunswick, NJ.</p>
       <p class="area">Not sure about a date or a design? Call me and ask.</p>
     </div>
     <a class="bigtel rise" href="tel:+19082744044"><svg aria-hidden="true"><use href="#i-phone"/></svg>(908) 274-4044</a>
@@ -348,7 +348,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 <footer>
   <div class="wrap">
-    <span>Henna Artist Surbhi · North Brunswick, NJ · <span class="nw">(908) 274-4044</span></span>
+    <span>Henna Artist Surbhi · North Brunswick, NJ</span>
     <nav aria-label="Elsewhere">
       <a href="https://www.instagram.com/henna_artist_surbhi/" rel="noopener">Instagram</a>
     </nav>

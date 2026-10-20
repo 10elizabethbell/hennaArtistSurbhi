@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T23:47:05.907Z",
+        "reason": "pitch-site calm-photo-style.md item 2: Ellie chose the faint diagonal band texture as house style (2026-10-19)"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T23:47:05.968Z",
+        "reason": "detector counts only 11-20px UI sizes; headings run 30-80px via clamp(), so hierarchy is not flat"
+      }
+    ]
+  }
+}
